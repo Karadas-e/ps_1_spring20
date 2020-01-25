@@ -245,7 +245,7 @@
   Hint: If your programming environment doesn't support auto-completion, just type my_div and hit Enter to move on.
 
 - Class: mult_question
-  Output: Would you like to submit the log of this lesson to Ercan Karadas?
+  Output: Would you like to submit the log of this lesson to Prof. Karadas?
   AnswerChoices: Yes;No
   CorrectAnswer: NULL
   AnswerTests: submit_log()
