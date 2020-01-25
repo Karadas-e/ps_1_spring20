@@ -183,12 +183,6 @@
 - Class: text
   Output: The same line of thinking applies to addition and the other comparison operators. If you want more control over the units when finding the above difference in times, you can use difftime(), which allows you to specify a 'units' parameter. 
 
-- Class: cmd_question
-  Output: Use difftime(Sys.time(), t1, units = 'days') to find the amount of time in DAYS that has passed since you created t1.
-  CorrectAnswer: difftime(Sys.time(), t1, units = 'days')
-  AnswerTests: match_call("difftime(Sys.time(), t1, units = 'days')")
-  Hint: difftime(Sys.time(), t1, units = 'days') will tell you how many days have passed since t1 was created (which better be less than 1!)
-
 - Class: text
   Output: In this lesson, you learned how to work with dates and times in R. While it is important to understand the basics, if you find yourself working with dates and times often, you may want to check out the lubridate package by Hadley Wickham.
 
