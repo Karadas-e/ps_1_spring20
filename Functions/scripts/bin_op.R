@@ -23,8 +23,8 @@
 #
 # will evaluate to: "Good job!"
 
-"%p%" <- function(){ # Remember to add arguments!
-  
+"%p%" <- function(left, right){ # Remember to add arguments!
+  paste(left, right, sep = " ")
 }
 
 
